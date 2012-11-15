@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Story Teller
+
+  Created by Logan Isitt on 6/7/12.
+  Copyright (c) 2012 ME. All rights reserved.
+*/
+
+// Sizing
+"24"    = "20";
+"40"    = "16";
+"80"    = "40";
+"55"    = "45";
+
+// MasterViewController
+"woodText.png"  = "woodText_it.png";
+"Create Story"  = "Creazione di storia";
+"Created:"      = "Creato: %@";
+
+// Buttons
+"Back"  = "Tornare";
+"Edit"  = "Modifica";
+"Add"   = "Aggiungere";
+"Save"  = "Salvare";
+"Done"  = "Fatto";
+"Record"= "Registrare";
+"Stop"  = "Fermare";
+"Play"  = "Giocare";
+"Take Photo"    = "Scattare la foto";
+"From Library"  = "Dalla libreria";
+
+// AddAlbumViewController
+"Story Name"    = "storia di nome:"; 
+"Story Cover"   = "storia di copertina:"; 
+
+// AddPhotosViewController
+"Add Pages"     = "Aggiungere pagine";
+"Select Photo"  = "Seleziona foto";
+"Page Recording"= "Pagina di registrazione:";
+
+// App Rating
+"If you like using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = 
+"Se trovi utile %@, perchè non spendere qualche momento per dare una valutazione? Non richiederà più di un minuto. Grazie per il supporto!";
+
+"Rate %@"           = "Valuta %@";
+"No, Thanks"        = "No, grazie";
+"Remind me later"   = "Ricordamelo più tardi";

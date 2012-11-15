@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="42">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller - Detail-->
+        <scene sceneID="16">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" title="Detail" id="4" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="YZd-cE-Dd4">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Detail" id="53"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="yML-vH-sr7" kind="push" identifier="ToPhotoView" id="zJ8-ig-00L"/>
+                        <segue destination="HbE-aS-3Y4" kind="push" identifier="AddPhoto" id="URL-YE-Dm3"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="707" y="-896"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="QYw-d9-2rd">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xU1-dJ-dVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="yML-vH-sr7" customClass="PhotoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1vN-Z7-tJ6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="Lyh-ml-vj2">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qTm-kR-7qg"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1626" y="-1704"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="Mqt-il-YQj">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qDn-H2-UuI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="DataViewController" id="FmB-2t-pk1" customClass="DataViewController" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="9Sf-zj-79z">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2474" y="-1704"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="50">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController navigationBarHidden="YES" id="42" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="43">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RQb-zD-ZY8" kind="relationship" relationship="rootViewController" id="86I-Gt-xh8"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1098" y="-328"/>
+        </scene>
+        <!--Master View Controller-->
+        <scene sceneID="3UY-ss-e5s">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zMD-WU-n0s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="RQb-zD-ZY8" customClass="MasterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gn6-f2-z4y">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="uBJ-uU-dn9">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a4z-27-yMW"/>
+                    <connections>
+                        <segue destination="8mO-e5-j08" kind="push" identifier="AlbumView" id="W0m-ty-od9"/>
+                        <segue destination="4" kind="push" identifier="DetailView" id="zLY-9j-fNa"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-254" y="-328"/>
+        </scene>
+        <!--Add Album View Controller-->
+        <scene sceneID="JdE-ez-Iwx">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ylt-Ra-b8s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="8mO-e5-j08" customClass="AddAlbumViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GIE-zx-Qgj">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="EdU-bn-EPl">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lnm-ii-pTp"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="715" y="449"/>
+        </scene>
+        <!--Add Photos View Controller-->
+        <scene sceneID="OcE-dv-z20">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8aP-9t-gAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="HbE-aS-3Y4" customClass="AddPhotosViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TDG-MS-6ko">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="bca-5E-XiC">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kd0-hA-dlm"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1626" y="-366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="768" height="1024"/>
+    </resources>
+    <classes>
+        <class className="AddAlbumViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddAlbumViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="selectImage:"/>
+                <relationship kind="action" name="takePhoto:"/>
+                <relationship kind="outlet" name="myImage" candidateClass="UIImage"/>
+                <relationship kind="outlet" name="myPicker" candidateClass="UIImagePickerController"/>
+                <relationship kind="outlet" name="myPopUp" candidateClass="UIPopoverController"/>
+            </relationships>
+        </class>
+        <class className="AddPhotosViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddPhotosViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="addPhoto:"/>
+                <relationship kind="action" name="play:"/>
+                <relationship kind="action" name="popBackView:"/>
+                <relationship kind="action" name="record:"/>
+                <relationship kind="action" name="selectImage:"/>
+                <relationship kind="action" name="takePhoto:"/>
+                <relationship kind="outlet" name="myPopUp" candidateClass="UIPopoverController"/>
+            </relationships>
+        </class>
+        <class className="DataViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DataViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="playAudio:"/>
+            </relationships>
+        </class>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="editImages:"/>
+            </relationships>
+        </class>
+        <class className="MasterViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
+        </class>
+        <class className="PhotoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="playAudio:"/>
+                <relationship kind="action" name="popView:"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
