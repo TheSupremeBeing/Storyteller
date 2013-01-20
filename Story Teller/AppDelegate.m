@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Appirater.h"
 #import "MasterViewController.h"
 
 @implementation AppDelegate
@@ -18,20 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {    
-    
-    [Appirater appLaunched:YES];
-    
     UINavigationController *navigationController = (UINavigationController *) self.window.rootViewController;
     MasterViewController *masterView = (MasterViewController *) [navigationController topViewController];
     masterView.managedObjectContext = self.managedObjectContext;
     
-    //NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleVersionKey];
-    NSString *key = @"Block Ads";
-    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:key];
-    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -46,8 +38,6 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {   
-    [Appirater appEnteredForeground:YES];
-
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 

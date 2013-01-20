@@ -44,7 +44,6 @@
 		02C4D84E164D8D7100811815 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C4D84D164D8D7100811815 /* Story.m */; };
 		02C4D851164D8D8500811815 /* Pages.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C4D850164D8D8500811815 /* Pages.m */; };
 		02DE159415958284005C5ADE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DE159315958284005C5ADE /* CoreData.framework */; };
-		02E120FE15811D1C004B98AD /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E120FD15811D1C004B98AD /* Appirater.m */; };
 		02E1210215811D47004B98AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E1210415811D47004B98AD /* Localizable.strings */; };
 		02E1AE6115C873A0007D45F8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E1AE6015C873A0007D45F8 /* background.png */; };
 		02E7C9F3153D2D0A00CC5276 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7C9F2153D2D0A00CC5276 /* UIImageExtras.m */; };
@@ -110,11 +109,9 @@
 		02C4D84D164D8D7100811815 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
 		02C4D84F164D8D8500811815 /* Pages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pages.h; sourceTree = "<group>"; };
 		02C4D850164D8D8500811815 /* Pages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pages.m; sourceTree = "<group>"; };
-		02C4D852164D8E5400811815 /* Model2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = Model2.xcdatamodel; sourceTree = "<group>"; };
-		02C4D853164D8FFE00811815 /* Model2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = Model2.xcdatamodel; sourceTree = "<group>"; };
+		02C4D852164D8E5400811815 /* Model2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model2.xcdatamodel; sourceTree = "<group>"; };
+		02C4D853164D8FFE00811815 /* Model2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model2.xcdatamodel; sourceTree = "<group>"; };
 		02DE159315958284005C5ADE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		02E120FC15811D1C004B98AD /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		02E120FD15811D1C004B98AD /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
 		02E1210315811D47004B98AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		02E1AE6015C873A0007D45F8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		02E7C9F1153D2D0A00CC5276 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
@@ -239,8 +236,6 @@
 		02AA9B4315321BE100D0D289 /* Story Teller */ = {
 			isa = PBXGroup;
 			children = (
-				02E120FC15811D1C004B98AD /* Appirater.h */,
-				02E120FD15811D1C004B98AD /* Appirater.m */,
 				0204ECEE15CCB95B002F681D /* MainStoryboard_iPhone.storyboard */,
 				0204ECEC15CCB907002F681D /* MainStoryboard_iPad.storyboard */,
 				02AA9B4C15321BE100D0D289 /* AppDelegate.h */,
@@ -371,7 +366,6 @@
 				021AAA7E156BF1D3005A474E /* DataViewController.m in Sources */,
 				021AAA7F156BF1D3005A474E /* ModelController.m in Sources */,
 				021AAA80156BF1D3005A474E /* PhotoViewController.m in Sources */,
-				02E120FE15811D1C004B98AD /* Appirater.m in Sources */,
 				02C4D84B164D8CDE00811815 /* Model.xcdatamodeld in Sources */,
 				02C4D84E164D8D7100811815 /* Story.m in Sources */,
 				02C4D851164D8D8500811815 /* Pages.m in Sources */,
